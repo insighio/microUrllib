@@ -10,3 +10,18 @@ It is derived by micropython's unix version of [urllib](https://github.com/micro
 - unquote_to_bytes
 
 More to be added if necessary/requested in the future.
+
+# Installation
+
+## Using `mip`
+
+For network connected devices, call:
+
+```py
+import mip
+mip.install("github:insighio/microUrllib")
+```
+
+## File Transfer
+
+Download and transfer files in the board through [ampy](https://pypi.org/project/adafruit-ampy/).
